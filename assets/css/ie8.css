@@ -1,36 +1,21 @@
 /*
-	Identity by HTML5 UP
-	html5up.net | @n33co
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* List */
+/* Button */
 
-	ul.icons li a {
-		-ms-behavior: url("assets/js/PIE.htc");
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px #f56a6a;
 	}
 
-		ul.icons li a:before {
-			text-align: center;
-			font-size: 26px;
-		}
+/* Posts */
 
-/* Main */
-
-	#main {
-		-ms-behavior: url("assets/js/PIE.htc");
+	.posts article {
+		width: 40%;
 	}
-
-		#main .avatar img {
-			-ms-behavior: url("assets/js/PIE.htc");
-		}
-
-/* Footer */
-
-	#footer {
-		color: #fff;
-	}
-
-		#footer .copyright li {
-			border-left: solid 1px #fff;
-		}

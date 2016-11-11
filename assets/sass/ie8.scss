@@ -4,48 +4,25 @@
 @import 'libs/skel';
 
 /*
-	Identity by HTML5 UP
-	html5up.net | @n33co
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* List */
+/* Button */
 
-	ul {
-		&.icons {
-			li {
-				a {
-					-ms-behavior: url('assets/js/PIE.htc');
-
-					&:before {
-						text-align: center;
-						font-size: 26px;
-					}
-				}
-			}
-		}
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px _palette(accent);
 	}
 
-/* Main */
+/* Posts */
 
-	#main {
-		-ms-behavior: url('assets/js/PIE.htc');
-
-		.avatar {
-			img {
-				-ms-behavior: url('assets/js/PIE.htc');
-			}
-		}
-	}
-
-/* Footer */
-
-	#footer {
-		color: #fff;
-
-		.copyright {
-			li {
-				border-left: solid 1px #fff;
-			}
+	.posts {
+		article {
+			width: 40%;
 		}
 	}
